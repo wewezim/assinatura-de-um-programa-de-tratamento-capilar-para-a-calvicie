@@ -177,11 +177,11 @@ complexo ou integração de pagamentos no dia zero.
 
 ## o que ficou manual de propósito
 
-## O mega prompt e as correções que você pediu depois
+## O mega prompt
 
-# Mega Prompt: Sistema MVP de Assinatura de Tratamento Capilar
+### Mega Prompt: Sistema MVP de Assinatura de Tratamento Capilar
 
-## Contexto e Objetivo
+#### Contexto e Objetivo
 Você é um desenvolvedor full-stack sênior especialista em MVP de produtos digitais. Sua missão é criar a aplicação web completa (Landing Page, Formulário Interativo, Redirecionamento para WhatsApp e Painel Administrativo) para um clube de assinatura de tratamento capilar focado em homens de 20 a 50 anos em Recife/PE. 
 
 O produto resolve a dor da calvície e da descontinuidade do tratamento através de kits mensais personalizados, combinando autoridade pessoal do fundador ("Expert") com conveniência e entrega local.
@@ -197,9 +197,9 @@ O design deve transmitir **sofisticação, confiança, masculinidade moderna e s
 
 ---
 
-## Fluxo do Cliente (Frontend / Experiência do Usuário)
+### Fluxo do Cliente (Frontend / Experiência do Usuário)
 
-### 1. Landing Page (Início)
+#### 1. Landing Page (Início)
 - **Hero Section:**
   - Tag de destaque: "Exclusivo para homens em Recife • Chega de adivinhar o que funciona."
   - Título Principal (H1): "Nunca mais perca cabelo por falta de rotina ou remédio errado."
@@ -215,7 +215,7 @@ O design deve transmitir **sofisticação, confiança, masculinidade moderna e s
   2. Ajuste o plano diretamente com o Expert via WhatsApp.
   3. Receba o kit em casa todo mês em Recife.
 
-### 2. Formulário Interativo de Personalização ("Monte seu Plano")
+#### 2. Formulário Interativo de Personalização ("Monte seu Plano")
 Uma sequência de perguntas rápida em etapas (steps) ou cards limpos:
 - **Passo 1:** Nome completo.
 - **Passo 2:** Bairro em Recife (para logística de entrega).
@@ -228,24 +228,24 @@ Uma sequência de perguntas rápida em etapas (steps) ou cards limpos:
 - **Passo 5:** Escolha do Kit Inicial (Kit Completo: Vitamina + Tônico + Xampu / Foco Crescimento: Tônico + Vitamina / Recomendação do Expert).
 - **Passo 6:** Número de WhatsApp (com DDD).
 
-### 3. Ação de Conversão (Gatilho para WhatsApp)
+#### 3. Ação de Conversão (Gatilho para WhatsApp)
 - Ao submeter o formulário, o sistema exibe uma tela de sucesso com um botão dinâmico: **"Falar com o Expert no WhatsApp"**.
 - O botão abre um link direto do WhatsApp (`https://wa.me/...`) preenchendo automaticamente a mensagem com os dados do cliente capturados no formulário:
   > *"Olá! Me chamo [Nome], moro no bairro [Bairro], meu nível de calvície é [Nível] e acabei de montar meu plano no site. Quero finalizar meu pedido!"*
 
 ---
 
-## Painel de Administração (Backend / Gestão do Expert)
+### Painel de Administração (Backend / Gestão do Expert)
 
 O painel deve ser uma interface limpa, protegida (com senha simples ou mock de login), estilo dashboard administrativo, contendo as seguintes abas/tabelas:
 
-### 1. Visão Geral (Métricas Rápidas)
+#### 1. Visão Geral (Métricas Rápidas)
 - Total de Leads gerados.
 - Assinaturas ativas no mês.
 - Receita recorrente estimada (MRR).
 - Entregas pendentes para a semana em Recife.
 
-### 2. Tabela de Leads & Clientes (CRM Simples)
+#### 2. Tabela de Leads & Clientes (CRM Simples)
 Colunas obrigatórias para gerenciamento:
 - **Data/Hora**
 - **Nome do Cliente**
@@ -256,21 +256,28 @@ Colunas obrigatórias para gerenciamento:
 - **Status do Lead:** (`Novo Lead`, `Aguardando Pagamento`, `Assinante Ativo`, `Cancelado`)
 - **Ações:** Editar status / Adicionar observação / Registrar link de pagamento enviado.
 
-### 3. Gestão de Entregas e Lembretes
+#### 3. Gestão de Entregas e Lembretes
 - Lista de clientes ativos com a **data da próxima renovação/envio do kit**.
 - Status de entrega do mês (`Separando`, `Enviado por Motoboy`, `Entregue`).
 - Alerta visual para clientes que precisam receber lembrete de recompra no WhatsApp nos próximos 3 dias.
 
 ---
-## Requisitos Técnicos
+### Requisitos Técnicos
 - Construa a aplicação de forma responsiva (ótima visualização em celulares, onde o tráfego de anúncios vai acontecer).
 - Utilize componentes limpos, modernos e funcionais.
 
-## Lovable
+<img width="1653" height="918" alt="image" src="https://github.com/user-attachments/assets/13f7f7ce-fcc1-4251-89ec-522ef7039200" />
+
+<img width="1914" height="1001" alt="image" src="https://github.com/user-attachments/assets/1b84b049-7f79-4ce0-b3b3-4ca7317f7634" />
+
+
+## As correções que eu pedi depois de ter solicitado o mega prompt
+
+<img width="484" height="656" alt="image" src="https://github.com/user-attachments/assets/51c08eb0-574b-47e6-83b3-d7ba464b124d" />
 
 
 
-
+## O endereço da aplicação publicada no Lovable
 
 calvicienuncamais.lovable.app
 
