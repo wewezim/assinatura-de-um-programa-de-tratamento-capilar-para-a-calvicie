@@ -63,53 +63,116 @@ SOM (Mercado Obtinível e Acessível): Recife - estima-se que existam cerca de 2
 
 1. Segmentos de Clientes: 
 
-Homens entre 20 e 50 anos que residem na Cidade de Recife.
+Homens entre 20 e 50 anos, moradores de Recife/PE, que sofrem com queda capilar e buscam praticidade para
+
+manter o tratamento sem esquecer de repor os produtos.
 
 2. Proposta de Valor: 
 
-Criação de uma plataforma de assinatura que entregue os produtos certos ao cliente
+Conveniência e Acompanhamento: Kit personalizado de tratamento capilar (shampoo, tônicos, vitaminas) 
 
-que estão em fase de perda capilar. O cliente escolheria a plataforma porque ela via unir todos os produtos
+entregue recorrentemente em casa, combinado com orientação direta via WhatsApp para não abandonar o tratamento.
 
-necessários ao tratamento em um único lugar e com um sistema de assinatura, facilitando o acesso ao cliente.
+3. Canais:
 
-3. Canais: Como o seu produto chega até o cliente.
+Aquisição: Anúncios no Instagram e Meta Ads (focados na região de Recife).Engajamento e Venda: Landing Page
 
-Instagram, Whatsapp, Google.
+simples - Formulário de Perfil Capilar - Conversa e fechamento direto no WhatsApp.
 
 4. Relacionamento com Clientes:
 
-A interação é por meio de anúncios nas páginas das redes sociais da empresa com fotos e relatos de clientes
+Atendimento humanizado e personalizado ("Expert Concierge"). Lembretes ativos via WhatsApp sobre o uso 
 
-satisfeitos com o resultado do tratamento.
+dos produtos e avisos de renovação/envio da caixa.
 
 5. Fontes de Receita:
 
-Por meio de assinatura da venda de produtos que evitam a queda capilar.
+Assinatura mensal ou trimestral do kit de tratamento capilar (pagamento via Pix ou link de cartão de 
+
+crédito enviado manualmente).
 
 6. Recursos Principais:
 
-Tecnologia (Java, C++, whatsapp, N8N e outros), equipe de gerenciamento de estoque e preparação da embalagem
+Tecnologia Leve: Landing page (feita via Vibe Coding / Lovable), formulário integrado (Typeform/Tally) 
 
-e envio dos produtos, equipe de call center, equipe de médicos e farmacêuticos especialistas na área e equipe
+e painel simples de gestão de leads (Notion, Airtable ou CRM leve).
 
-de entrega.
+Conhecimento do Expert: Seu histórico real de superação da calvície e protocolos de atendimento.
 
-7. Atividades Principais: As ações essenciais que sua empresa deve executar.
+Estoque Mínimo Operacional: Produtos comprados sob demanda ou em pequenos lotes com fornecedores locais de Recife.
 
-Marketing digital da plataforma, contato com fornecedores, gerenciamento da página oficial da empresa para 
+7. Atividades Principais:
 
-gerenciamento dos leads, clientes, entregas e lembretes, atendimento especializado ao cliente.
+Gestão das campanhas de tráfego pago (Meta Ads).
 
-8. Parcerias Principais: Fornecedores ou aliados estratégicos.
+Atendimento consultivo e fechamento de vendas pelo WhatsApp.
 
-Farmacêuticas.
+Montagem manual das caixas/kits e contratação de entregadores locais (motoboy/Loggi).
 
-9. Estrutura de Custos: Os principais gastos para manter a operação em pé.
+Atualização do painel de controle (leads, pagamentos e próximas entregas).
 
-Pagamento de funcionários, custos das assinaturas das tecnologias utilizadas, capital de giro para manutenção
+8. Parcerias Principais:
 
-de estoque, sistema de vigilância, despesas administrativas.
+Farmácias de manipulação ou distribuidores locais de produtos capilares em Recife (para compra dos produtos 
 
+conforme as vendas entram).
 
-## A tese que o MVP testa, e o que ficou manual de propósito
+Serviços de entrega local (entregadores autônomos ou aplicativos de logística rápida).
+
+9. Estrutura de Custos:
+
+Orçamento de Anúncios: Investimento inicial em Meta Ads para atrair os primeiros leads.
+
+Custo dos Produtos (COGS): Compra dos itens do kit somente após a confirmação do pagamento pelo cliente.
+
+Ferramentas de Software: Assinatura básica do domínio, ferramenta de landing page e CRM simples.
+
+Frete/Entrega: Taxa por entrega realizada na região de Recife.
+
+## A tese que o MVP testa
+
+1. Hipótese da Dor e Busca Ativa (Inbound Marketing)
+
+Homens em Recife com queda capilar clicam em anúncios de um "plano contínuo de tratamento"?
+
+O que testa: Se o público de 20 a 50 anos responde bem ao apelo visual (antes/depois e conveniência) e se 
+
+dispõe a sair do Instagram para acessar a sua Landing Page.
+
+2. Hipótese da Proposta de Valor (Landing Page & Formulário)
+
+O cliente valoriza a conveniência de agrupar medicamentos, xampus e vitaminas em um plano único de assinatura?
+
+O que testa: Se o visitante da Landing Page se engaja a ponto de preencher o formulário para montar o seu 
+
+próprio plano personalizado (escolhendo frequência, grau de calvície ou tipo de tratamento).
+
+3. Hipótese do Canal e Conversão (Fechamento no WhatsApp)
+
+O cliente aceita ser atendido e fechar a assinatura por conversa no WhatsApp com um "Expert em Calvície"?
+
+O que testa: Se o contato humano via WhatsApp gera a confiança necessária sobre tratamentos capilares a 
+
+ponto de o cliente efetuar o pagamento via link manual (Pix ou cartão recorrente).
+
+4. Hipótese de Recorrência e Preço (Disposição a Pagar)
+
+O valor do kit mensal (ou trimestral) tem margem aceitável e baixa resistência de preço comparado à 
+
+compra avulsa na farmácia?
+
+O que testa: Se a margem da assinatura cobre o Custo de Aquisição de Cliente (CAC) e a entrega local, 
+
+mantendo o cliente retido na taxa de assinatura cobrada.
+
+5. Hipótese de Operação Manual (Painel do Admin)
+
+O Expert consegue gerenciar a esteira de leads, envio de links, controle de entregas e lembretes 
+
+de recompras de forma semiautomática em um painel simples?
+
+O que testa: Se a operação roda sem gargalos e sem a necessidade de construir um e-commerce 
+
+complexo ou integração de pagamentos no dia zero.
+
+## o que ficou manual de propósito
