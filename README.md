@@ -269,3 +269,8 @@ Colunas obrigatórias para gerenciamento:
 ## Lovable
 
 
+
+
+
+calvicienuncamais.lovable.app
+
