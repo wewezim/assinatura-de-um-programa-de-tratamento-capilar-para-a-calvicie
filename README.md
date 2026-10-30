@@ -45,7 +45,10 @@ estoque para atendimento ao cliente. A criação de um serviço de atendimento a
 
 todas as suas necessidades de acompanhamento e aquisição dos produtos adequados pode tornar a vida do
 
-cliente bem mais fácil
+cliente bem mais fácil.
+
+<img width="1913" height="417" alt="image" src="https://github.com/user-attachments/assets/f32ca624-45f0-499b-bd17-1267d4870d56" />
+
 
 
 ## O tamanho de mercado
@@ -175,11 +178,14 @@ O que testa: Se a operação roda sem gargalos e sem a necessidade de construir 
 
 complexo ou integração de pagamentos no dia zero.
 
-## o que ficou manual de propósito
-
 ## O mega prompt
 
-### Mega Prompt: Sistema MVP de Assinatura de Tratamento Capilar
+### Mega Prompt: 
+
+<img width="1913" height="961" alt="image" src="https://github.com/user-attachments/assets/7fbce151-7a5b-4ee5-a8b7-ecb8452cfd55" />
+
+
+Sistema MVP de Assinatura de Tratamento Capilar
 
 #### Contexto e Objetivo
 Você é um desenvolvedor full-stack sênior especialista em MVP de produtos digitais. Sua missão é criar a aplicação web completa (Landing Page, Formulário Interativo, Redirecionamento para WhatsApp e Painel Administrativo) para um clube de assinatura de tratamento capilar focado em homens de 20 a 50 anos em Recife/PE. 
