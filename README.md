@@ -176,3 +176,96 @@ O que testa: Se a operação roda sem gargalos e sem a necessidade de construir 
 complexo ou integração de pagamentos no dia zero.
 
 ## o que ficou manual de propósito
+
+## O mega prompt e as correções que você pediu depois
+
+# Mega Prompt: Sistema MVP de Assinatura de Tratamento Capilar
+
+## Contexto e Objetivo
+Você é um desenvolvedor full-stack sênior especialista em MVP de produtos digitais. Sua missão é criar a aplicação web completa (Landing Page, Formulário Interativo, Redirecionamento para WhatsApp e Painel Administrativo) para um clube de assinatura de tratamento capilar focado em homens de 20 a 50 anos em Recife/PE. 
+
+O produto resolve a dor da calvície e da descontinuidade do tratamento através de kits mensais personalizados, combinando autoridade pessoal do fundador ("Expert") com conveniência e entrega local.
+
+---
+
+## Paleta de Cores e Identidade Visual (Design System)
+O design deve transmitir **sofisticação, confiança, masculinidade moderna e saúde capilar**.
+- **Cor Primária (Fundo Escuro / Destaque):** Preto Profundo / Grafite Escuro (#121212 ou #0F172A)
+- **Cor Secundária (Acentos / Botões):** Verde Saúde / Esmeralda Elegante (#10B981 ou #059669) para conversão e chamadas de ação.
+- **Cor de Apoio (Texto e Caixas):** Cinza Claro / Prata Metálico (#F3F4F6) para fundos de cards e textos secundários.
+- **Tipografia:** Moderna, limpa e sem serifa (ex: Inter ou Roboto).
+
+---
+
+## Fluxo do Cliente (Frontend / Experiência do Usuário)
+
+### 1. Landing Page (Início)
+- **Hero Section:**
+  - Tag de destaque: "Exclusivo para homens em Recife • Chega de adivinhar o que funciona."
+  - Título Principal (H1): "Nunca mais perca cabelo por falta de rotina ou remédio errado."
+  - Subtítulo: "Receba em casa o seu kit de tratamento capilar personalizado todos os meses, com os ativos certos para o seu grau de calvície."
+  - Botão de Ação (CTA): "Montar Meu Plano Capilar" (leva direto ao formulário).
+  - Prova social: "Criado por quem superou a calvície e hoje tem o cabelo de volta."
+
+- **Seção de Conexão (A Dor):**
+  - Breve relato empático sobre o fundador que sofreu com calvície precoce, tratamentos errados e o resgate da autoestima após o método correto.
+
+- **Seção de Como Funciona (3 Passos):**
+  1. Responda o quiz rápido sobre seu perfil.
+  2. Ajuste o plano diretamente com o Expert via WhatsApp.
+  3. Receba o kit em casa todo mês em Recife.
+
+### 2. Formulário Interativo de Personalização ("Monte seu Plano")
+Uma sequência de perguntas rápida em etapas (steps) ou cards limpos:
+- **Passo 1:** Nome completo.
+- **Passo 2:** Bairro em Recife (para logística de entrega).
+- **Passo 3:** Nível de queda / calvície (Seleção visual ou por tags):
+  - *Opção A:* Apenas entradas levemente recuadas.
+  - *Opção B:* Coroa ralada e diminuição de volume.
+  - *Opção C:* Calvície avançada (coroa e entradas unidas).
+  - *Opção D:* Já fiz transplante e quero apenas manter.
+- **Passo 4:** Histórico de tratamento anterior (Nunca tentei / Tentei sozinho / Faço uso contínuo).
+- **Passo 5:** Escolha do Kit Inicial (Kit Completo: Vitamina + Tônico + Xampu / Foco Crescimento: Tônico + Vitamina / Recomendação do Expert).
+- **Passo 6:** Número de WhatsApp (com DDD).
+
+### 3. Ação de Conversão (Gatilho para WhatsApp)
+- Ao submeter o formulário, o sistema exibe uma tela de sucesso com um botão dinâmico: **"Falar com o Expert no WhatsApp"**.
+- O botão abre um link direto do WhatsApp (`https://wa.me/...`) preenchendo automaticamente a mensagem com os dados do cliente capturados no formulário:
+  > *"Olá! Me chamo [Nome], moro no bairro [Bairro], meu nível de calvície é [Nível] e acabei de montar meu plano no site. Quero finalizar meu pedido!"*
+
+---
+
+## Painel de Administração (Backend / Gestão do Expert)
+
+O painel deve ser uma interface limpa, protegida (com senha simples ou mock de login), estilo dashboard administrativo, contendo as seguintes abas/tabelas:
+
+### 1. Visão Geral (Métricas Rápidas)
+- Total de Leads gerados.
+- Assinaturas ativas no mês.
+- Receita recorrente estimada (MRR).
+- Entregas pendentes para a semana em Recife.
+
+### 2. Tabela de Leads & Clientes (CRM Simples)
+Colunas obrigatórias para gerenciamento:
+- **Data/Hora**
+- **Nome do Cliente**
+- **Bairro (Recife)**
+- **Nível de Calvície**
+- **Kit Escolhido**
+- **WhatsApp** (com botão de clique rápido para abrir a conversa)
+- **Status do Lead:** (`Novo Lead`, `Aguardando Pagamento`, `Assinante Ativo`, `Cancelado`)
+- **Ações:** Editar status / Adicionar observação / Registrar link de pagamento enviado.
+
+### 3. Gestão de Entregas e Lembretes
+- Lista de clientes ativos com a **data da próxima renovação/envio do kit**.
+- Status de entrega do mês (`Separando`, `Enviado por Motoboy`, `Entregue`).
+- Alerta visual para clientes que precisam receber lembrete de recompra no WhatsApp nos próximos 3 dias.
+
+---
+## Requisitos Técnicos
+- Construa a aplicação de forma responsiva (ótima visualização em celulares, onde o tráfego de anúncios vai acontecer).
+- Utilize componentes limpos, modernos e funcionais.
+
+## Lovable
+
+
